@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form action="/register" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="role">Role:</label><br>
+        <select name="role" id="role" required>
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select><br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="text" id="dob" name="dob"><br><br>
+        <label for="department">Department:</label><br>
+        <input type="text" id="department" name="department"><br><br>
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location"><br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
